@@ -1,0 +1,113 @@
+header {
+  width: 100%;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.header_title {
+  line-height: 5px;
+  color: #202020;
+  font-family: 'Acme', sans-serif;
+  font-weight: lighter;
+}
+
+.header_description {
+  line-height: 5px;
+  font-family: 'Quicksand';
+  font-weight: 400;
+  color: #3681C4;
+}
+
+.intro {
+  width: 100%;
+}
+
+.main_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 20px;
+}
+
+p.intro_paragraph {
+  font-family: 'Quicksand';
+  /* font-weight: 400; */
+  font-size: 20px;
+  color: #202020;
+}
+
+
+.featured_work_header {
+  width: 100%;
+  font-family: 'Acme', sans-serif;
+  color: #ff9900;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.featured_work {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.project_image {
+  width: 80%;
+}
+
+.project_title {
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-size: 20px;
+  color: #202020;
+  margin-top: 1px;
+  margin-bottom: 20px;
+
+}
+
+.social-media{
+    text-align: center;
+    /* width: auto; */
+    padding-top: 8px;
+}
+
+a.resume:link {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+}
+
+.button.social, .resume {
+    color: #002b80;
+}
+
+
+
+a:link,
+a:hover,
+a:visited {
+  text-decoration: none;
+  font-weight: lighter;
+  font-family: 'Quicksand';
+}
+
+a.prohover:hover {
+  background-color: #ff9900;
+}
+
+a.social:hover, a.resume:hover {
+  color: #4d88ff;
+}
